@@ -1,12 +1,10 @@
-import './perfil.css';
+import styles from './Perfil.module.css'
 
-const Perfil = () => {
-    const endereco = "https://avatars.githubusercontent.com/u/92723320?v=4"
-    const nomeUsuario = "Max H"
+const Perfil = ({ nomeUsuario }) => {
     return (
-        <header>
-            <img className="perfil-avatar" src={endereco} alt="" />
-            <h1 className='perfil-titulo'>{nomeUsuario}</h1>
+        <header className={styles.header}>
+            <img className={styles.avatar} src={`https://github.com/${nomeUsuario}.png`} alt="" />
+            <h1 className={styles.name}>{nomeUsuario}</h1>
         </header>
     )
 }
