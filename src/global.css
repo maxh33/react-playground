@@ -10,9 +10,13 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
+    text-align: center;
 }
 
 :root {
     --corPrincipal: #59636d;
     --corSecundaria: #f6f8fa;
+    --corBotao: #646cff;
+    --corBotaoHover: #4040ff;
+
 }
