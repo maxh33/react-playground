@@ -13,7 +13,7 @@ const ReposList = ({ nomeUsuario }) => {
         fetch(`https://api.github.com/users/${nomeUsuario}/repos`)
             .then(res => {
                 if (!res.ok) {
-                    throw Error(`Não foi possível obter os dados dos repositórios, deste usiario confira se ele existe. Erro: ${res.status} ${res.statusText}`);
+                    throw Error(`Não foi possível obter os dados dos repositórios deste usuário. Confira se ele existe. Erro: ${res.status} ${res.statusText}`);
                 }
                 return res.json();
             })
