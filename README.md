@@ -13,7 +13,6 @@ Sure, here is a more concise version of the selected section in your README:
 - **CSS Modules**: Scoped and modular CSS to avoid conflicts.
 - **Fetch API**: For making HTTP requests to the GitHub API.
 - **Error Handling**: Graceful handling of errors such as 404 when fetching user repositories.
-- **Responsive Design**: Ensuring the application looks good on various screen sizes.
 - **JavaScript (ES6+)**: For modern JavaScript features.
 
 ---
