@@ -23,5 +23,10 @@
     margin-top: 8px;
     padding: 8px;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
 
+.itemLink:hover {
+    background-color: var(--corBotaoHover);
+    color: var(--corSecundariaHover);
 }
